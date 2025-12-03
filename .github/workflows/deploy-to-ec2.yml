@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 env:
-  AWS_REGION: ap-southeast-1  # 根据你的需要修改区域
+  AWS_REGION: ap-southeast-5  # 根据你的需要修改区域
   S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
 
 jobs:
